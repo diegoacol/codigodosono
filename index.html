@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Método do Sono Tranquilo</title>
+    <title>O Código do Sono Infantil | Guia por R$ 9,99</title>
 
     <!-- Modern Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -823,9 +823,227 @@
                 grid-template-columns: 1fr;
             }
 
-            .mega-bonus-card {
-                padding: 2.5rem 1.5rem !important;
-                margin-top: 3rem !important;
+            .problem-section,
+            .intro-section,
+            .learn-section,
+            .testimonials-section,
+            .bonuses-section,
+            .pricing-section {
+                padding: 4rem 0 !important;
+            }
+        }
+    
+        /* Sales page polish */
+        .offer-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.55rem 1rem;
+            margin-bottom: 1.25rem;
+            border: 1px solid rgba(245, 158, 11, 0.35);
+            border-radius: 999px;
+            background: rgba(245, 158, 11, 0.1);
+            color: #FDE68A;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 0.92rem;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+
+        .hero-subtitle {
+            color: #fff;
+            font-size: clamp(1.12rem, 2.3vw, 1.45rem);
+            font-weight: 600;
+            margin-bottom: 2.5rem;
+            max-width: 820px;
+            margin-inline: auto;
+        }
+
+        .hero h1 {
+            max-width: 930px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: clamp(2.35rem, 5.6vw, 4.45rem);
+            letter-spacing: 0;
+        }
+
+        .hero-trust-row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin: -0.65rem auto 1.55rem;
+            max-width: 820px;
+        }
+
+        .hero-trust-row span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.45rem 0.75rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #E2E8F0;
+            font-size: 0.92rem;
+            font-weight: 700;
+        }
+
+        .hero-trust-row i {
+            color: var(--primary-gold);
+            font-size: 0.9rem;
+        }
+
+        .hero .hero-cta-note {
+            margin: 2.75rem auto 0;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .btn-cta {
+            border-radius: 14px;
+            box-shadow: 0 14px 30px rgba(234, 88, 12, 0.28);
+            animation: none;
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-3px);
+        }
+
+        .glass-card,
+        .symptom-card,
+        .feature-box,
+        .bonus-item,
+        .value-stack {
+            border-radius: 16px;
+        }
+
+        .pricing-card {
+            border-radius: 24px;
+            border-color: rgba(245, 158, 11, 0.28);
+        }
+
+        .pricing-card::before {
+            content: 'OFERTA ESPECIAL';
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 1.25rem;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0.45rem 0.9rem;
+            border-radius: 999px;
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            color: #A7F3D0;
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+        }
+
+        .pricing-card h3 {
+            margin-top: 1.25rem;
+        }
+
+        .price-save {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.2rem;
+            padding: 0.45rem 0.9rem;
+            border-radius: 999px;
+            background: rgba(245, 158, 11, 0.12);
+            color: #FDE68A;
+            font-weight: 800;
+            font-size: 0.95rem;
+        }
+
+        .text-muted {
+            color: var(--text-muted);
+        }
+
+        /* Page rhythm */
+        .hero {
+            padding: 2.5rem 0 2rem;
+        }
+
+        .problem-section,
+        .intro-section,
+        .learn-section,
+        .testimonials-section,
+        .bonuses-section {
+            padding: 2.375rem 0;
+        }
+
+        .pricing-section {
+            padding: 2.375rem 0 2.75rem;
+        }
+
+        .hero .hero-subtitle {
+            margin: 0 auto 1.75rem;
+        }
+
+        .hero-mockup {
+            max-width: 460px;
+            margin-bottom: 2.25rem;
+        }
+
+        .symptoms-grid,
+        .intro-features,
+        .testimonials-grid {
+            margin-top: 2.25rem;
+        }
+
+        .learn-grid {
+            margin-top: 2.25rem;
+            margin-bottom: 2.75rem;
+        }
+
+        .carousel-wrapper {
+            padding: 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .bonus-list {
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+        }
+
+        .bonus-item {
+            gap: 2rem;
+            padding: 1.75rem;
+        }
+
+        .glass-card,
+        .testimonial-item {
+            padding: 2rem;
+        }
+
+        .pricing-card {
+            padding: 3.25rem 2.5rem;
+        }
+
+        .pricing-image {
+            max-width: 58%;
+            margin-bottom: 2rem;
+        }
+
+        .value-stack {
+            margin-bottom: 2rem;
+            padding: 1.6rem;
+        }
+
+        .garantia {
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 2.125rem 0 1.5rem;
             }
 
             .problem-section,
@@ -834,7 +1052,58 @@
             .testimonials-section,
             .bonuses-section,
             .pricing-section {
-                padding: 4rem 0 !important;
+                padding: 1.625rem 0 !important;
+            }
+
+            .hero .hero-subtitle {
+                margin-bottom: 1.5rem;
+            }
+
+            .hero-trust-row {
+                gap: 0.5rem;
+                margin-bottom: 1.25rem;
+            }
+
+            .hero-trust-row span {
+                font-size: 0.84rem;
+                padding: 0.4rem 0.62rem;
+            }
+
+            .hero-mockup {
+                width: 82%;
+                margin-bottom: 1.5rem;
+            }
+
+            .symptoms-grid,
+            .intro-features,
+            .learn-grid,
+            .testimonials-grid,
+            .bonus-list {
+                margin-top: 1.75rem;
+            }
+
+            .learn-grid {
+                margin-bottom: 2rem;
+            }
+
+            .carousel-wrapper {
+                margin-bottom: 2rem;
+            }
+
+            .bonus-list {
+                gap: 1.25rem;
+            }
+
+            .bonus-item,
+            .glass-card,
+            .testimonial-item,
+            .pricing-card {
+                padding: 1.5rem;
+            }
+
+            .pricing-image {
+                max-width: 82%;
+                margin-bottom: 1.5rem;
             }
         }
     </style>
@@ -861,75 +1130,69 @@
 
 <body>
 
-    <header class="main-header">
-        <div class="container header-content">
-            <span class="logo-text-nav">MAMÃE NO COMANDO</span>
-        </div>
-    </header>
-
     <!-- 1. Hero Section -->
     <section class="hero text-center">
         <div class="container relative z-10 fade-in">
-            <h1 class="text-gradient" style="line-height: 1.1; margin-bottom: 1rem;">Seu Bebê Não Dorme e Você Tá à Beira da Loucura?</h1>
-            <p style="color: #fff; font-size: clamp(1.2rem, 2.5vw, 1.6rem); font-weight: 700; margin-bottom: 2.5rem; text-transform: uppercase; letter-spacing: 0.5px;">Descubra Como Fazer Ele Dormir a Noite Toda em Poucos Dias <span class="text-gradient">(Sem Deixar Chorar)</span></p>
+            <span class="offer-badge"><i class="fas fa-moon"></i> O Código do Sono Infantil por R$ 9,99</span>
+            <h1 class="text-gradient" style="line-height: 1.05; margin-bottom: 1rem;">Noites mais tranquilas para o seu bebê, sem deixar chorar</h1>
+            <p class="hero-subtitle">Um guia prático para ajustar rotina, ambiente e sinais de sono com uma abordagem acolhedora, simples e possível de aplicar em casa.</p>
 
-            <img src="assets/mockup.png" class="hero-mockup floating">
+            <div class="hero-trust-row">
+                <span><i class="fas fa-check-circle"></i> Acesso imediato</span>
+                <span><i class="fas fa-gift"></i> 3 bônus inclusos</span>
+                <span><i class="fas fa-shield-alt"></i> Garantia de 7 dias</span>
+            </div>
 
-            <a href="https://pay.kiwify.com.br/jMnyv5L?region=br" class="btn-cta">Quero Dormir Melhor Hoje</a>
+            <img src="assets/mockup.png" alt="Guia O Código do Sono Infantil" class="hero-mockup floating">
+
+            <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">Quero acessar por R$ 9,99</a>
+            <p class="hero-cta-note">Pagamento único. Guia digital liberado na hora.</p>
         </div>
     </section>
 
     <!-- 2. Problem Section -->
     <section class="problem-section">
         <div class="container relative z-10 fade-in">
-            <div class="text-center mx-auto" style="max-width: 800px;">
-                <h2 class="problem-title text-gradient-dark">As noites viraram um verdadeiro pesadelo?</h2>
-                <p style="font-size: 1.2rem; font-weight: 500;">Você se sente exausta e já não sabe mais o que tentar.
-                    As madrugadas em claro cobram um preço alto da sua saúde, da sua paciência e do seu relacionamento.
-                    Saiba de uma coisa: <strong>você não está sozinha.</strong></p>
+            <div class="text-center mx-auto" style="max-width: 820px;">
+                <h2 class="problem-title text-gradient-dark">Quando o sono vira uma batalha, a casa inteira sente</h2>
+                <p style="font-size: 1.2rem; font-weight: 500;">Se a noite começa com medo da próxima crise de choro, dos despertares seguidos ou de mais uma madrugada sem descanso, você não precisa continuar tentando no escuro. Existe um caminho simples, acolhedor e possível para ajustar a rotina do seu bebê.</p>
             </div>
 
             <div class="symptoms-grid">
                 <div class="symptom-card">
                     <i class="fas fa-times-circle"></i>
-                    <p>Você acorda de hora em hora e se sente um verdadeiro zumbi no dia seguinte pela falta de energia.
-                    </p>
+                    <p>Você acorda várias vezes na mesma noite e passa o dia sem energia, paciência ou clareza.</p>
                 </div>
                 <div class="symptom-card">
                     <i class="fas fa-times-circle"></i>
-                    <p>O bebê só adormece no colo, peito ou balançando. Ao tentar colocá-lo no berço, ele desperta na
-                        hora.</p>
+                    <p>Seu bebê só dorme no colo, no peito ou balançando, e desperta assim que vai para o berço.</p>
                 </div>
                 <div class="symptom-card">
                     <i class="fas fa-times-circle"></i>
-                    <p>Você perdeu as contas de quantas vezes precisa levantar para devolver a chupeta caída durante a
-                        madrugada.</p>
+                    <p>A hora de dormir demora demais e parece que qualquer detalhe faz tudo recomeçar.</p>
                 </div>
                 <div class="symptom-card">
                     <i class="fas fa-times-circle"></i>
-                    <p>Você não tem mais tempo para si mesma. Cuidar de você ou ter um momento a dois parece uma tarefa
-                        impossível.</p>
+                    <p>Você sente que perdeu sua rotina, seu descanso e até os momentos simples em família.</p>
                 </div>
                 <div class="symptom-card">
                     <i class="fas fa-times-circle"></i>
-                    <p>A ansiedade ataca só de ver a noite chegando, imaginando a longa jornada que terá pela frente.
-                    </p>
+                    <p>A ansiedade aparece antes mesmo de escurecer, porque você já sabe como a noite pode ser difícil.</p>
                 </div>
                 <div class="symptom-card">
                     <i class="fas fa-check-circle" style="color: #10B981;"></i>
-                    <p><strong>Pare de se sentir culpada por não saber o que o seu filho precisa. Você não precisa escolher entre o seu descanso e o bem-estar do seu bebê.</strong></p>
+                    <p><strong>Não é falta de amor, esforço ou paciência. Na maioria das vezes, falta apenas um passo a passo claro para seguir.</strong></p>
                 </div>
             </div>
 
-            <!-- Quebra de Crença -->
-            <div class="text-center mx-auto fade-in" style="max-width: 850px; margin-top: 4rem; padding: 2.5rem; background: rgba(245, 158, 11, 0.05); border-radius: 24px; border: 1px dashed rgba(245, 158, 11, 0.3);">
-                <p style="font-size: 1.4rem; font-weight: 600; color: #fff; line-height: 1.5;">
-                    Se você já tentou de tudo e nada funcionou… o problema <span class="text-gradient">NÃO é você</span>. <br>É que ninguém te ensinou como o sono do bebê realmente funciona.
+            <div class="text-center mx-auto fade-in" style="max-width: 850px; margin-top: 2.75rem; padding: 2rem; background: rgba(245, 158, 11, 0.06); border-radius: 16px; border: 1px solid rgba(245, 158, 11, 0.28);">
+                <p style="font-size: 1.35rem; font-weight: 600; color: #fff; line-height: 1.5;">
+                    O Código do Sono Infantil mostra o que observar, o que ajustar e como criar uma rotina noturna mais previsível, sem métodos agressivos e sem deixar seu bebê chorando sozinho.
                 </p>
             </div>
 
-            <div class="text-center mt-12" style="margin-top: 3rem;">
-                <a href="https://pay.kiwify.com.br/jMnyv5L?region=br" class="btn-cta">Existe Uma Solução (Ver Agora)</a>
+            <div class="text-center" style="margin-top: 2.25rem;">
+                <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">Quero o passo a passo</a>
             </div>
         </div>
     </section>
@@ -937,36 +1200,34 @@
     <!-- 3. Intro Section -->
     <section class="intro-section">
         <div class="container fade-in">
-            <h2>Acredite: <span class="text-gradient">você não precisa</span> enfrentar isso sozinha.</h2>
-            <p class="mx-auto text-muted mb-10" style="max-width: 700px; font-size: 1.1rem;">Com pequenos ajustes no
-                ambiente, na rotina e nas sinalizações naturais do seu filho, o sono dele vai se transformar. O descanso
-                da sua família está a um passo de distância.</p>
+            <h2>Um plano simples para noites <span class="text-gradient">mais tranquilas</span></h2>
+            <p class="mx-auto text-muted" style="max-width: 740px; font-size: 1.1rem; margin-bottom: 2.25rem;">Com ajustes no ambiente, nos horários e na forma de conduzir o ritual do sono, você entende melhor o que seu bebê precisa e ganha mais segurança para agir.</p>
 
             <div class="carousel-wrapper">
-                <img src="assets/mae-cansada-madrugada.jpg" alt="Mãe e Bebê Acordados na Madrugada">
-                <img src="assets/bebe-dormindo-berco.jpg" alt="Bebê Adormecendo Suavemente no Berço">
-                <img src="assets/mae-descansada-feliz.jpg" alt="Mãe Feliz, Disposta e Descansada">
+                <img src="assets/mae-cansada-madrugada.jpg" alt="Mãe e bebê acordados na madrugada">
+                <img src="assets/bebe-dormindo-berco.jpg" alt="Bebê dormindo no berço">
+                <img src="assets/mae-descansada-feliz.jpg" alt="Mãe descansada e feliz">
             </div>
 
-            <div class="text-center" style="margin-top: 4rem;">
-                <h3 style="font-size: 2rem; margin-bottom: 2rem;">O que você encontrará no Guia Definitivo:</h3>
+            <div class="text-center" style="margin-top: 2.75rem;">
+                <h3 style="font-size: 2rem; margin-bottom: 1.5rem;">Dentro do guia você encontra:</h3>
 
                 <div class="intro-features">
                     <div class="feature-box">
                         <i class="fas fa-moon"></i>
-                        <p>Técnicas comprovadas para fazer seu bebê adormecer rápido e em paz.</p>
+                        <p>Rotina noturna clara para aplicar ainda hoje.</p>
                     </div>
                     <div class="feature-box">
                         <i class="fas fa-home"></i>
-                        <p>Passo a passo para criar o ambiente de sono escuro e perfeito.</p>
+                        <p>Ajustes de quarto, luz, temperatura e estímulos.</p>
                     </div>
                     <div class="feature-box">
                         <i class="fas fa-brain"></i>
-                        <p>Explicações visuais e simples sobre a ciência do sono infantil.</p>
+                        <p>Explicações simples sobre sinais e janelas de sono.</p>
                     </div>
                     <div class="feature-box">
                         <i class="fas fa-heart"></i>
-                        <p>Transformação real de forma 100% natural e humanizada.</p>
+                        <p>Uma abordagem acolhedora, natural e respeitosa.</p>
                     </div>
                 </div>
             </div>
@@ -976,41 +1237,40 @@
     <!-- 4. What you'll learn -->
     <section class="learn-section">
         <div class="container text-center fade-in">
-            <h2 class="text-gradient" style="font-size: 2.5rem;">Descubra o Poder de Noites Restauradoras</h2>
+            <h2 class="text-gradient" style="font-size: 2.5rem;">Veja o que você vai aplicar</h2>
 
             <div class="learn-grid">
                 <div class="learn-card glass-card">
-                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15); transform: rotate(-3deg);">
-                        <i class="fas fa-magic" style="font-size: 2.4rem; color: var(--primary-gold); transform: rotate(3deg);"></i>
+                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15);">
+                        <i class="fas fa-magic" style="font-size: 2.4rem; color: var(--primary-gold);"></i>
                     </div>
-                    <h4>Técnicas Comprovadas</h4>
-                    <p class="text-muted">Desarme a agitação e ajude seu bebê a adormecer em minutos, sem estresse.</p>
+                    <h4>Acalmar a agitação</h4>
+                    <p class="text-muted">Como reduzir estímulos e preparar o bebê para dormir com mais facilidade.</p>
                 </div>
                 <div class="learn-card glass-card">
-                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15); transform: rotate(3deg);">
-                        <i class="fas fa-cloud-moon" style="font-size: 2.4rem; color: var(--primary-gold); transform: rotate(-3deg);"></i>
+                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15);">
+                        <i class="fas fa-cloud-moon" style="font-size: 2.4rem; color: var(--primary-gold);"></i>
                     </div>
-                    <h4>Ambiente Ideal</h4>
-                    <p class="text-muted">Controle iluminação, temperatura e uso de ruído branco de forma estratégica.
-                    </p>
+                    <h4>Preparar o quarto</h4>
+                    <p class="text-muted">Luz, temperatura, ruído branco e detalhes do ambiente que favorecem o descanso.</p>
                 </div>
                 <div class="learn-card glass-card">
-                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15); transform: rotate(-3deg);">
-                        <i class="fas fa-brain" style="font-size: 2.4rem; color: var(--primary-gold); transform: rotate(3deg);"></i>
+                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15);">
+                        <i class="fas fa-brain" style="font-size: 2.4rem; color: var(--primary-gold);"></i>
                     </div>
-                    <h4>Ciência Aplicada</h4>
-                    <p class="text-muted">Aprenda janelas de sono e sinais de cansaço para agir no minuto exato.</p>
+                    <h4>Acertar o horário</h4>
+                    <p class="text-muted">Como identificar sinais de cansaço e respeitar janelas de sono sem adivinhar.</p>
                 </div>
                 <div class="learn-card glass-card">
-                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15); transform: rotate(3deg);">
-                        <i class="fas fa-clock" style="font-size: 2.4rem; color: var(--primary-gold); transform: rotate(-3deg);"></i>
+                    <div style="width: 90px; height: 90px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; display: flex; justify-content: center; align-items: center; margin: 0 auto 1.5rem; box-shadow: 0 0 30px rgba(245, 158, 11, 0.15);">
+                        <i class="fas fa-clock" style="font-size: 2.4rem; color: var(--primary-gold);"></i>
                     </div>
-                    <h4>Rotina Consistente</h4>
-                    <p class="text-muted">Crie um ritual noturno previsível que seu bebê vai aprender a amar.</p>
+                    <h4>Criar consistência</h4>
+                    <p class="text-muted">Um ritual simples e repetível para seu bebê entender que é hora de relaxar.</p>
                 </div>
             </div>
 
-            <a href="https://pay.kiwify.com.br/jMnyv5L?region=br" class="btn-cta">Desbloquear O Guia Definitivo</a>
+            <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">Quero começar hoje</a>
         </div>
     </section>
 
@@ -1018,38 +1278,30 @@
     <section class="testimonials-section">
         <div class="container fade-in">
             <div class="text-center mx-auto" style="max-width: 800px;">
-                <h2 class="text-gradient-dark" style="font-size: 2.5rem; margin-bottom: 1rem;">Histórias de Quem Mudou
-                    de Vida</h2>
-                <p style="font-size: 1.1rem; font-weight: 500;">Mães reais que saíram da exaustão extrema para noites
-                    inteiras de sono.</p>
+                <h2 class="text-gradient-dark" style="font-size: 2.5rem; margin-bottom: 1rem;">Relatos de mães que ajustaram a rotina</h2>
+                <p style="font-size: 1.1rem; font-weight: 500;">Pequenas mudanças, quando são aplicadas com clareza, podem transformar a forma como a família atravessa a noite.</p>
             </div>
 
             <div class="testimonials-grid">
                 <div class="testimonial-item">
                     <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
-                    <p>"Parecia milagre! Em menos de 4 dias aplicando o passo a passo, meu filho começou a dormir 8
-                        horas seguidas. Finalmente consigo descansar e me sentir viva."</p>
+                    <p>"Eu não sabia por onde começar. O guia deixou tudo simples: ajustei o ritual da noite e meu filho passou a dormir com muito menos resistência."</p>
                     <h5>— Mariana S.</h5>
                 </div>
                 <div class="testimonial-item">
                     <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
-                    <p>"Eu achava impossível melhorar o sono de gêmeos, mas as técnicas são tão lógicas que tudo fez
-                        sentido. Foi um verdadeiro divisor de águas aqui em casa."</p>
+                    <p>"As explicações sobre janela de sono fizeram tudo fazer sentido. Parei de tentar no improviso e comecei a seguir uma rotina mais leve."</p>
                     <h5>— Gabriela L.</h5>
                 </div>
                 <div class="testimonial-item">
                     <div class="stars">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
-                    <p>"As dicas sobre o ambiente e a massagem de relaxamento mudaram nossa rotina. Eu estava à beira do
-                        colapso e hoje temos paz ao entardecer."</p>
+                    <p>"O checklist do ambiente foi o que mais me ajudou. A noite ficou mais previsível e eu voltei a sentir confiança na rotina."</p>
                     <h5>— Clara R.</h5>
                 </div>
             </div>
@@ -1060,102 +1312,50 @@
     <section class="bonuses-section">
         <div class="container fade-in">
             <div class="text-center">
-                <h2>Presentes Exclusivos <br><span class="text-gradient">Para Quem Adquirir o Guia</span></h2>
-                <p class="text-muted mt-4 font-size: 1.1rem">Materiais práticos para acelerar ainda mais os seus
-                    resultados.</p>
+                <h2>Você também recebe <br><span class="text-gradient">3 materiais práticos de apoio</span></h2>
+                <p class="text-muted" style="margin-top: 1rem; font-size: 1.1rem;">Bônus simples para aplicar o método com mais organização no dia a dia.</p>
             </div>
 
             <div class="bonus-list mx-auto" style="max-width: 900px;">
                 <div class="bonus-item glass-card">
                     <div class="bonus-icon-wrapper">
-                        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15); transform: rotate(-3deg);">
-                            <i class="fas fa-clipboard-check" style="font-size: 4.5rem; color: var(--primary-gold); transform: rotate(3deg); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));"></i>
+                        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15);">
+                            <i class="fas fa-clipboard-check" style="font-size: 4.5rem; color: var(--primary-gold); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));"></i>
                         </div>
                     </div>
                     <div class="bonus-content">
-                        <span class="bonus-tag">PRESENTE 01</span>
-                        <h4>Checklist: O Ambiente de Sono Sagrado</h4>
-                        <p>O guia técnico definitivo para ajustar cada detalhe do quarto, da iluminação à temperatura, focando na biologia do sono e na segurança total do seu bebê.</p>
+                        <span class="bonus-tag">BÔNUS 01</span>
+                        <h4>Checklist: Quarto Preparado para Dormir</h4>
+                        <p>Uma lista objetiva para ajustar iluminação, ruídos, temperatura e outros detalhes do ambiente antes da hora de dormir.</p>
                     </div>
                 </div>
 
                 <div class="bonus-item glass-card">
                     <div class="bonus-icon-wrapper">
-                        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15); transform: rotate(3deg);">
-                            <i class="fas fa-spa" style="font-size: 4.5rem; color: var(--primary-gold); transform: rotate(-3deg); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));"></i>
+                        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15);">
+                            <i class="fas fa-spa" style="font-size: 4.5rem; color: var(--primary-gold); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));"></i>
                         </div>
                     </div>
                     <div class="bonus-content">
-                        <span class="bonus-tag">PRESENTE 02</span>
-                        <h4>Manual Mestre: 10 Passos para o Sono Profundo</h4>
-                        <p>Um manual ultra-detalhado com as 10 técnicas de relaxamento mais poderosas, explicadas através da ciência para "desligar" o estresse e induzir o sono REM.</p>
+                        <span class="bonus-tag">BÔNUS 02</span>
+                        <h4>Guia Rápido: 10 Passos de Relaxamento</h4>
+                        <p>Um roteiro simples para desacelerar a casa, conduzir o bebê com calma e criar um final de dia mais previsível.</p>
                     </div>
                 </div>
 
                 <div class="bonus-item glass-card">
                     <div class="bonus-icon-wrapper">
-                        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15); transform: rotate(-3deg);">
-                            <i class="fas fa-calendar-alt" style="font-size: 4.5rem; color: var(--primary-gold); transform: rotate(3deg); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));"></i>
+                        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15);">
+                            <i class="fas fa-calendar-alt" style="font-size: 4.5rem; color: var(--primary-gold); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.4));"></i>
                         </div>
                     </div>
                     <div class="bonus-content">
-                        <span class="bonus-tag">PRESENTE 03</span>
-                        <h4>Planejador de Rotina: Noites Tranquilas</h4>
-                        <p>Painel interativo e inteligente para monitorar sonecas e despertares. Identifique padrões ocultos e construa a previsibilidade que gera dias leves e noites de paz.</p>
+                        <span class="bonus-tag">BÔNUS 03</span>
+                        <h4>Planejador de Rotina e Sonecas</h4>
+                        <p>Um apoio para registrar horários, observar padrões e ajustar a rotina sem depender de memória ou tentativa e erro.</p>
                     </div>
                 </div>
             </div>
-
-            <!-- Mega Bônus Especial Completo -->
-            <div class="mega-bonus-card glass-card fade-in" style="margin-top: 5rem; border: 2px solid var(--primary-gold); padding: 4rem 3rem; background: rgba(15, 23, 42, 0.7); position: relative; overflow: hidden; box-shadow: 0 0 50px rgba(245, 158, 11, 0.15); max-width: 950px; margin-inline: auto;">
-                
-                <!-- Glow Effect background -->
-                <div style="position: absolute; top: -50px; left: 50%; transform: translateX(-50%); width: 400px; height: 400px; background: rgba(245, 158, 11, 0.2); filter: blur(120px); border-radius: 50%; z-index: 0; pointer-events: none;"></div>
-
-                <div style="position: relative; z-index: 1;">
-                    <!-- Promoção Limitada Badge -->
-                    <div class="text-center" style="margin-bottom: 2rem;">
-                        <span style="display: inline-block; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.5); color: var(--primary-gold); padding: 0.6rem 1.8rem; border-radius: 50px; font-weight: 800; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px;">
-                            🚨 LIBERADO HOJE POR R$37 (VALOR PODE VOLTAR A QUALQUER MOMENTO)
-                        </span>
-                    </div>
-
-                    <h2 class="text-center" style="font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin-bottom: 2.5rem; line-height: 1.3;">
-                        Compre O Código do Sono e <br><span class="text-gradient">Ganhe Grátis o Kit Materno Completo</span>
-                    </h2>
-
-                    <div class="text-center" style="margin-bottom: 3.5rem;">
-                        <h3 class="text-gradient" style="font-size: clamp(1.4rem, 2.5vw, 1.8rem); margin-bottom: 0.8rem; font-family: 'Outfit', sans-serif;">O melhor kit com tudo que uma mãe de primeira viagem tem que ter</h3>
-                        <p style="color: #fff; font-size: 1.2rem; font-weight: 400;">Guias Práticos e Essenciais na Palma da Sua Mão!</p>
-                    </div>
-
-                    <!-- Representação Visual do Bônus Premium -->
-                    <div style="margin-bottom: 4.5rem; text-align: center; position: relative;">
-                        <!-- Efeito de Luz Dourada Atrás da Imagem -->
-                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%; background: var(--primary-gold); filter: blur(120px); opacity: 0.15; border-radius: 50%; z-index: 0; pointer-events: none;"></div>
-                        <!-- Mockup com Animação Flutuante -->
-                        <img src="assets/mockup-geral-2.png" alt="Kit Materno Completo" class="floating" style="max-width: 100%; width: 750px; height: auto; margin: 0 auto; position: relative; z-index: 1; filter: drop-shadow(0 25px 40px rgba(0,0,0,0.6));">
-                    </div>
-
-                    <!-- Prova Social Minimalista -->
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 3.5rem; text-align: left;">
-                        <div style="padding-left: 1.5rem; border-left: 3px solid var(--primary-gold);">
-                            <p style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; margin-bottom: 0.8rem; line-height: 1.5;">"Eu estava desesperada com o refluxo do meu filho. O guia me salvou!"</p>
-                            <p style="font-weight: 700; color: #fff; font-size: 0.95rem; font-family: 'Outfit', sans-serif;">— Ana</p>
-                        </div>
-                        <div style="padding-left: 1.5rem; border-left: 3px solid var(--primary-gold);">
-                            <p style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; margin-bottom: 0.8rem; line-height: 1.5;">"Recuperei minha confiança e sei exatamente o que fazer em emergências. Indispensável!"</p>
-                            <p style="font-weight: 700; color: #fff; font-size: 0.95rem; font-family: 'Outfit', sans-serif;">— Carla</p>
-                        </div>
-                    </div>
-
-                    <!-- CTA Bônus -->
-                    <div class="text-center mt-8">
-                        <a href="https://pay.kiwify.com.br/jMnyv5L?region=br" class="btn-cta text-uppercase font-weight-bold" style="font-size: clamp(1rem, 2.5vw, 1.2rem); padding: 1.5rem 2.5rem; width: 100%; max-width: 650px;">Quero Dormir Melhor E Ganhar Meu Kit Grátis AGORA</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 
@@ -1163,43 +1363,38 @@
     <section id="comprar" class="pricing-section">
         <div class="container fade-in">
             <div class="pricing-card">
-                <h3>O Seu Acesso à <span class="text-gradient">Paz e ao Descanso</span></h3>
+                <h3>Comece hoje por <span class="text-gradient">menos de R$ 10</span></h3>
 
-                <img src="assets/mockup.png"
-                    alt="Pacote Completo" class="pricing-image">
+                <img src="assets/mockup.png" alt="Pacote O Código do Sono Infantil" class="pricing-image">
 
                 <div class="value-stack">
-                    <h4>O Que Você Vai Levar:</h4>
+                    <h4>Seu acesso inclui:</h4>
                     <div class="value-item">
-                        <i class="fas fa-check-circle"></i> <span>O Guia Definitivo do Sono Tranquilo</span>
-                    </div>
-                    <div class="value-item">
-                        <i class="fas fa-check-circle"></i> <span><strong>Bônus 1:</strong> Checklist: O Ambiente de Sono Sagrado</span>
+                        <i class="fas fa-check-circle"></i> <span>O Código do Sono Infantil</span>
                     </div>
                     <div class="value-item">
-                        <i class="fas fa-check-circle"></i> <span><strong>Bônus 2:</strong> Manual Mestre: 10 Passos para o Sono Profundo</span>
+                        <i class="fas fa-check-circle"></i> <span><strong>Bônus 1:</strong> Checklist do quarto preparado para dormir</span>
                     </div>
                     <div class="value-item">
-                        <i class="fas fa-check-circle"></i> <span><strong>Bônus 3:</strong> Planejador de Rotina: Noites Tranquilas</span>
+                        <i class="fas fa-check-circle"></i> <span><strong>Bônus 2:</strong> Guia rápido de relaxamento</span>
                     </div>
-                    <div class="value-item" style="background: rgba(245, 158, 11, 0.1); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid rgba(245, 158, 11, 0.2); transform: translateX(-10px);">
-                        <i class="fas fa-gift" style="color: var(--primary-gold);"></i> <span><strong>Bônus Mega:</strong> Kit Materno Completo (6 Guias)</span>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i> <span><strong>Bônus 3:</strong> Planejador de rotina e sonecas</span>
                     </div>
-                    <div class="value-item mt-4 pt-4" style="border-top: 1px solid rgba(255,255,255,0.1);">
-                        <i class="fas fa-shield-alt" style="color: var(--primary-gold);"></i> <span>Garantia
-                            incondicional de 7 dias</span>
+                    <div class="value-item" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; margin-top: 1rem;">
+                        <i class="fas fa-shield-alt" style="color: var(--primary-gold);"></i> <span>Garantia incondicional de 7 dias</span>
                     </div>
                 </div>
 
-                <div class="strike-price" style="color: var(--primary-gold); font-weight: 700; text-decoration: none;">LIBERADO HOJE POR APENAS</div>
-                <div class="final-price"><span>R$</span> 37<span style="font-size: 2rem;">,00</span></div>
-                <p style="color: #10B981; font-weight: 600; margin-bottom: 2rem; font-size: 1.2rem;">Pagamento único,
-                    acesso imediato.</p>
+                <div class="strike-price">De R$ 47,00 por</div>
+                <div class="final-price"><span>R$</span> 9<span style="font-size: 2rem;">,99</span></div>
+                <div class="price-save">Oferta de acesso imediato</div>
+                <p style="color: #10B981; font-weight: 600; margin-bottom: 2rem; font-size: 1.2rem;">Pagamento único. Acesso liberado na hora.</p>
 
-                <a href="https://pay.kiwify.com.br/jMnyv5L?region=br" class="btn-cta">SIM! QUERO DORMIR MELHOR HOJE</a>
+                <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">SIM, QUERO ACESSAR POR R$ 9,99</a>
 
                 <div class="garantia">
-                    <i class="fas fa-lock"></i> Compra 100% Segura. Você tem 7 dias de Garantia.
+                    <i class="fas fa-lock"></i> Compra 100% segura. Você tem 7 dias de garantia.
                 </div>
             </div>
         </div>

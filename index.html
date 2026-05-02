@@ -1120,6 +1120,7 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1346867447505662');
     fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=1346867447505662&ev=PageView&noscript=1"
@@ -1145,7 +1146,7 @@
 
             <img src="assets/mockup.png" alt="Guia O Código do Sono Infantil" class="hero-mockup floating">
 
-            <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">Quero acessar por R$ 9,99</a>
+            <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta" onclick="if (typeof fbq === 'function') fbq('track', 'InitiateCheckout');">Quero acessar por R$ 9,99</a>
             <p class="hero-cta-note">Pagamento único. Guia digital liberado na hora.</p>
         </div>
     </section>
@@ -1192,7 +1193,7 @@
             </div>
 
             <div class="text-center" style="margin-top: 2.25rem;">
-                <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">Quero o passo a passo</a>
+                <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta" onclick="if (typeof fbq === 'function') fbq('track', 'InitiateCheckout');">Quero o passo a passo</a>
             </div>
         </div>
     </section>
@@ -1270,7 +1271,7 @@
                 </div>
             </div>
 
-            <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">Quero começar hoje</a>
+            <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta" onclick="if (typeof fbq === 'function') fbq('track', 'InitiateCheckout');">Quero começar hoje</a>
         </div>
     </section>
 
@@ -1391,7 +1392,7 @@
                 <div class="price-save">Oferta de acesso imediato</div>
                 <p style="color: #10B981; font-weight: 600; margin-bottom: 2rem; font-size: 1.2rem;">Pagamento único. Acesso liberado na hora.</p>
 
-                <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta">SIM, QUERO ACESSAR POR R$ 9,99</a>
+                <a href="https://pay.kiwify.com.br/ESCUn3M" class="btn-cta" onclick="if (typeof fbq === 'function') fbq('track', 'InitiateCheckout');">SIM, QUERO ACESSAR POR R$ 9,99</a>
 
                 <div class="garantia">
                     <i class="fas fa-lock"></i> Compra 100% segura. Você tem 7 dias de garantia.
